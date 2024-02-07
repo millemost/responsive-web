@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta name="description" content="Learn about job openings at Jovian and submit your application now">
+		<meta name="keywords" content="data science, software development, jobs">3
+		<meta name="author" content="Jovian">
+		<meta name="robots" content="index, follow">
+		<meta property="og:title" content="Jovian Careers">
+		<meta property="og:description" content="Learn about job openings at Jovian and submit your application now">
+		<meta property="og:image" content="webimage.png">
+		<link rel="icon" href="webicon.png" type="image/x-icon">
+		<title>Jovian</title>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Lobster&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id="navbar">
+			<img src="https://jovian.com/jovian_logo.svg" alt="The Jovian Logo" />
+		</div>
+		<div id="banners">
+			<img id="banner" src='Banner.jpg' alt="Ideal mind" height=500>
+		</div>
+		<h1>About Jovian</h1>
+		<div id="about">
+			<div id="description">
+				<p>The Jovian Company is <strong>inviting</strong> people to participate in the <b>Technological University</b>, we're <em>building</em> this to be on <i>an online platform</i>.
+				We strive to be <u>the most reputable and highly rated among it's kind</u></p>
+				<p>We also offer 2 more extensive Program:
+				<ol>
+					<li>
+						<a class=links href="https://jovian.com/learn/web-development-with-html-and-css" target="_blanks">
+							Jovian Fullstack Developer Program
+						</a>
+					</li>
+					<li>
+						<a class=links href="https://jovian.com/learn/data-analysis-with-python-zero-to-pandas" target="_blanks">
+							Jovian Data Analysis Program
+						</a>
+					</li>
+				</ol>
+				</p>
+			</div>
+			<div id="teams">
+				
+					<img src="Team.jpg" id = "team" alt="All about Team Work" height=250px>
+				
+			</div>
+		</div>
+		
+
+		<div>
+			<h2>
+				Job Opportunities
+			</h2>
+		</div>
+		<div id="jobs">
+			<table id="jobs-table">
+				<tr class="jobs-header-row">
+					<th rowspan="2">
+						Job Title
+					</th>
+					<th colspan="2">
+						Location
+					</th>
+					<th rowspan=2>
+						Salary
+					</th>
+					<th rowspan=2>
+						Posted On
+					</th>
+				</tr>
+				<tr class="jobs-header-row">
+					<th>
+						City
+					</th>
+					<th>
+ 						Country
+					</th>
+				</tr>
+				<tr class="jobs-data-row">
+					<td>
+						Frontend Developer
+					</td>
+					<td>
+						Bengaluru
+					</td>
+					<td>
+						India
+					</td>
+					<td>
+						Rs. 12,000,000
+					</td>
+					<td>
+						Mar 3,2023
+					</td>
+				</tr>
+				<tr class="jobs-data-row">
+					<td>
+						Fullstack Developer
+					</td>
+					<td>
+						Dehli
+					</td>
+					<td>
+						India
+					</td>
+					<td>
+						Rs. 15,000,000
+					</td>
+					<td>
+						Feb 1,2023
+					</td>
+				</tr>
+				<tr class="jobs-data-row">
+					<td>
+						Data Scientist
+					</td>
+					<td>
+						San Francisco
+					</td>
+					<td>
+						U.S.A
+					</td>
+					<td>
+						$ 175,000
+					</td>
+					<td>
+						Dec 22,2022
+					</td>
+				</tr>
+				<tr class="jobs-data-row">
+					<td>
+						ML Engineer
+					</td>
+					<td colspan="2">
+						Remote
+					</td>
+					<td>
+						$ 80,000
+					</td>
+					<td>
+						Sep 19,2022
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="application">
+			<h2>Submit Your Application </h2>
+			<!-- TODO- a sample application form -->
+			<form id="application-form">
+				<div>
+					<label for="name">
+						Full Name
+					</label>
+					<br>
+					<input type="text" id="name" name="Full Name" required placeholder="John Doe">
+				</div>
+				<div>
+					<label for="email">
+						Email
+					</label>
+					<br>
+					<input type="email" id="email" name="Email Address" required placeholder="john.doe@example.com">
+				</div>
+				<div>
+					<label for="phone">
+						Phone
+					</label>
+					<br>
+					<input type="tel" id="number" name="phone" required placeholder="+2640055500">
+				</div>
+
+				<div>
+					<label for="dob">
+						Date Of Birth
+					</label>
+					<br>
+					<input type="date" id="dob" name="dob" required >
+				</div>
+				<div>
+					<label for="position">
+						Position Applied for
+					</label>
+					<br>
+					<select id="position" name="Position Applied" required>
+						<option value="frontend">
+							Frontend Developer
+						</option>
+						<option value="fullstack">
+							Fullstack Developer
+						</option>
+						<option value="data scientist">
+							Data Scientist
+						</option>
+							
+						<option value="ml engineer">
+							ML Engineer
+						</option>
+					</select>
+				</div>
+				<div>
+					<label for="resume">
+						Upload Your Resume
+					</label>
+					<br>
+					<input type="file" id="resume" name="resume" accept=".pdf,.docx,.doc" required>
+				</div>
+				<div>
+					<label for="coverletter">
+						Cover Letter
+					</label>
+					<br>
+					<textarea id="coverletter" name="coverletter" rows="5" required placeholder="Explain what makes you suitable for the job...."></textarea>
+				</div>
+				<div>
+					<label for="terms">
+						<input id="terms" type="checkbox" name="terms" required>
+							I agree to the terms and condition
+					</label>
+				</dib>
+				
+				<div>
+					<input type="submit" value="Submit Application">
+				</div>
+			</from>
+
+		</div>
+		<div id="footer">
+			<ul id="footer-links">
+				
+				<li>
+					<a href="https://www.youtube.com/@jovianhq" target="_blanks">
+						Youtube
+					</a>
+				</li>
+				<li>
+					<a href="https://jovian.com/learn/" target = "_blanks">
+						Courses
+					</a>
+				</li>
+			</ul>
+			<span>© Jovian 2023</span>
+		</div>
+	</body>
+</html>
