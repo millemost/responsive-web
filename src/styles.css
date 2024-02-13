@@ -1,3 +1,10 @@
+@media screen and (max-width:569px){
+	#application-form input {
+		width:100%;
+	}
+}
+
+
 body {
 	margin:0px;
 	padding:0px;
@@ -23,11 +30,13 @@ a {
 #banners {
 	margin: 0px auto;
 	max-width:98%;
+
 }
 #banner {
 	width:100%;
 	border:2px solid lightblue; 
 	border-radius:20px;
+	height:55vw;
 }
 #team {
 	width:100%;
@@ -36,24 +45,25 @@ a {
 }
 
 #navbar {
-	padding:7px;
-	width:7%;
-	height:7%;
+	height:5vh;
+	display: flex;
+	margin-bottom:8px;
 }
 #about {
 	padding:2px 0px 0px 25px;
-	display: flex;
 	max-width:900px;
+	display: flex;
 	margin: 0px auto;
-	
-	
+	flex-flow: row wrap;
+	justify-content:center;
+	border:1px solid black;
 }
 #description {
 	width:50%;
-	
+	flex-grow:1;
 }
 #teams {
-	width:50%;
+	height:50%;
 }
 #jobs {
 	max-width:900px;
