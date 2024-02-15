@@ -19,10 +19,11 @@
 	</head>
 	<body>
 		<div id="navbar">
-			<img src="https://jovian.com/jovian_logo.svg" alt="The Jovian Logo" />
+			<img id="lower-image" src="webicon.png" alt="Jovian logo"/>
+			<img id="higher-image" src="https://jovian.com/jovian_logo.svg" alt="The Jovian Logo"/>
 		</div>
 		<div id="banners">
-			<img id="banner" src='Banner.jpg' alt="Ideal mind" height=500>
+			<img id="banner" src='Banner.jpg' alt="Ideal mind">
 		</div>
 		<h1>About Jovian</h1>
 		<div id="about">
@@ -56,6 +57,48 @@
 			<h2>
 				Job Opportunities
 			</h2>
+		</div>
+		<div id="mobile-jobs">
+			<div class="job-list">
+				<h3>
+					Frontend Developer
+				</h3>
+				<ul>
+					<li>Bengaluru, India</li>
+					<li>RS. 12,000,000</li>
+					<li>Posted 3 days ago</li>
+				</ul>
+			</div>
+			<div class="job-list">
+				<h3>
+					Fullstack Developer
+				</h3>
+				<ul>
+					<li>Delhi, India</li>
+					<li>RS. 15,000,000</li>
+					<li>Posted 15 days ago</li>
+				</ul>
+			</div>
+			<div class="job-list">
+				<h3>
+					Data Scientist
+				</h3>
+				<ul>
+					<li>San Francisco, U.S.A</li>
+					<li>$ 175,000</li>
+					<li>Posted 1 month ago</li>
+				</ul>
+			</div>
+			<div class="job-list">
+				<h3>
+					ML Engineer
+				</h3>
+				<ul>
+					<li>Remote</li>
+					<li>$ 80,000</li>
+					<li>Posted 7 days ago</li>
+				</ul>
+			</div>
 		</div>
 		<div id="jobs">
 			<table id="jobs-table">
@@ -150,7 +193,9 @@
 		</div>
 
 		<div id="application">
-			<h2>Submit Your Application </h2>
+			<h2>
+				Submit Your Application 
+			</h2>
 			<!-- TODO- a sample application form -->
 			<form id="application-form">
 				<div>
@@ -158,21 +203,21 @@
 						Full Name
 					</label>
 					<br>
-					<input type="text" id="name" name="Full Name" required placeholder="John Doe">
+					<input class="fill" type="text" id="name" name="Full Name" required placeholder="John Doe">
 				</div>
 				<div>
 					<label for="email">
 						Email
 					</label>
 					<br>
-					<input type="email" id="email" name="Email Address" required placeholder="john.doe@example.com">
+					<input class="fill" type="email" id="email" name="Email Address" required placeholder="john.doe@example.com">
 				</div>
 				<div>
 					<label for="phone">
 						Phone
 					</label>
 					<br>
-					<input type="tel" id="number" name="phone" required placeholder="+2640055500">
+					<input class="fill" type="tel" id="number" name="phone" required placeholder="+2640055500">
 				</div>
 
 				<div>
@@ -180,7 +225,7 @@
 						Date Of Birth
 					</label>
 					<br>
-					<input type="date" id="dob" name="dob" required >
+					<input class="fill" type="date" id="dob" name="dob" required >
 				</div>
 				<div>
 					<label for="position">
@@ -208,7 +253,7 @@
 						Upload Your Resume
 					</label>
 					<br>
-					<input type="file" id="resume" name="resume" accept=".pdf,.docx,.doc" required>
+					<input class="fill" type="file" id="resume" name="resume" accept=".pdf,.docx,.doc" required>
 				</div>
 				<div>
 					<label for="coverletter">
@@ -222,12 +267,12 @@
 						<input id="terms" type="checkbox" name="terms" required>
 							I agree to the terms and condition
 					</label>
-				</dib>
+				</div>
 				
 				<div>
 					<input type="submit" value="Submit Application">
 				</div>
-			</from>
+			</form>
 
 		</div>
 		<div id="footer">
